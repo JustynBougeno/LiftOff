@@ -8,6 +8,7 @@
     <None Remove="Pomelo.EntityFrameworkCore.MySql" />
     <None Remove="Views\Search\" />
     <None Remove="Membership\" />
+    <None Remove="Data\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
@@ -15,5 +16,6 @@
   <ItemGroup>
     <Folder Include="Views\Search\" />
     <Folder Include="Membership\" />
+    <Folder Include="Data\" />
   </ItemGroup>
 </Project>
