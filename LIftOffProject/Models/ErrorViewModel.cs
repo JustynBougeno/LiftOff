@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LIftOffProject.Models
+namespace LiftOffProject.Models
 {
     public class ErrorViewModel
     {

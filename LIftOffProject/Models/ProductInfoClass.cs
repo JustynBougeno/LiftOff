@@ -1,5 +1,5 @@
 ﻿using System;
-namespace LIftOffProject.Models
+namespace LiftOffProject.Models
 {
     public class ProductInfoClass
     {
@@ -11,9 +11,7 @@ namespace LIftOffProject.Models
         public string productSeller { get; set; }
         public string productPrice { get; set; }
 
-        public PaymentClassInfo paymentInfo { get; set; }
-        public OrderClass orderClass { get; set; }
-        public CustomerClass customerClass { get; set; }
+        public int Id { get; set; }
 
         public ProductInfoClass()
         {

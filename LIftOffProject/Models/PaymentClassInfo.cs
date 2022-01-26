@@ -1,5 +1,5 @@
 ﻿using System;
-namespace LIftOffProject.Models
+namespace LiftOffProject.Models
 {
     public class PaymentClassInfo
     {
@@ -8,13 +8,10 @@ namespace LIftOffProject.Models
         public string streetAddress { get; set; }
         public int expDate { get; set; }
         public int secCode { get; set; }
-        public string billAddress { get; set; }
 
-        public CustomerClass customerClass { get; set; }
-        public PaymentClassInfo paymentClassInfo { get; set; }
-        public ProductInfoClass productInfoClass { get; set; }
-
-
+        public int customerId { get; set; }
+        public int Id { get; set; }
+        //public string billingAddress { get; set; }
 
         public PaymentClassInfo()
         {

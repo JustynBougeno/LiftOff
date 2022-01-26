@@ -5,12 +5,20 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using LIftOffProject.Models;
+using LiftOffProject.Models;
+using LiftOffProject.Data;
 
-namespace LIftOffProject.Controllers
+namespace LiftOffProject.Controllers
 {
     public class HomeController : Controller
     {
+        private DataDbContext context;
+
+        private DataDbContext(DataDbContext dbContext)
+        {
+            context = dbContext;
+        } 
+    
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)

@@ -1,15 +1,21 @@
 ﻿using System;
-namespace LIftOffProject.Models
+using System.Collections.Generic;
+
+namespace LiftOffProject.Models
 {
     public class OrderClass
     {
+        public int orderId { get; set; }
+        public int customerId { get; set; }
+
         public string orderStatus { get; set; }
         public string orderInfo { get; set; }
-        public string orderAmount { get; set; }
-          
-        public CustomerClass customerClass { get; set; }
-        //public PaymentClassInfo paymentInfo { get; set; }
-        public ProductInfoClass productInfoClass { get; set; }
+        
+        public string orderPrice { get; set; }
+        public int Id { get; set; }
+
+        public CustomerClass customer { get; set; }
+        public List<ProductInfoClass> products { get; set; }
 
         public OrderClass()
         {
