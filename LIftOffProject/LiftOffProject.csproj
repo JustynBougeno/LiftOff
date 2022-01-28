@@ -11,6 +11,7 @@
     <None Remove="Data\" />
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="APIOperations\" />
+    <None Remove="ViewModel\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
@@ -24,5 +25,9 @@
     <Folder Include="Membership\" />
     <Folder Include="Data\" />
     <Folder Include="APIOperations\" />
+    <Folder Include="ViewModel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Home\HomePage.cshtml" />
   </ItemGroup>
 </Project>

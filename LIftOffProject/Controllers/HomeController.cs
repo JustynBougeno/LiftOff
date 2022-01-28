@@ -14,10 +14,10 @@ namespace LiftOffProject.Controllers
     {
         private DataDbContext context;
 
-        private DataDbContext(DataDbContext dbContext)
-        {
-            context = dbContext;
-        } 
+        //private DataDbContext(DataDbContext dbContext)
+        //{
+        //    context = dbContext;
+        //} 
     
         private readonly ILogger<HomeController> _logger;
 
